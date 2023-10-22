@@ -2,9 +2,9 @@
 
 [![Button Example]][Link]
 <!----------------------------------------------------------------------------->
-[Link]: # https://chat-app-r6ji.onrender.com/
+[Link]: 'https://chat-app-r6ji.onrender.com/'
 <!---------------------------------[ Buttons ]--------------------------------->
-[Button Example]: https://img.shields.io/badge/Title-37a779?style=for-the-badge
+[Button Example]: https://img.shields.io/badge/Open-37a779?style=for-the-badge
 ## vite & REact
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
