@@ -1,5 +1,5 @@
 # Chat application with React js, Tailwindcss & firebase
-## [OPENAPP](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) ##
+## <a href="https://chat-app-r6ji.onrender.com/" class="button">Open</a> ##
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
