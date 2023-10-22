@@ -1,4 +1,5 @@
-# React + Vite
+# Chat application with React js, Tailwindcss & firebase
+## <a link="https://chat-app-r6ji.onrender.com/">Open it</a>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
