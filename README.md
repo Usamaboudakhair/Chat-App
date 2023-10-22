@@ -1,7 +1,7 @@
-# Chat application with React js, Tailwindcss & firebase #
+![image](https://github.com/Usamaboudakhair/chat-app/assets/109860129/bbb5e483-d305-4ed5-9577-0fae8c08d65f)# Chat application with React js, Tailwindcss & firebase #
 
 
-[Button Example]:(https://rawgit.com/gorangajic/react-icons/master/react-icons.svg =250x250)
+[Button Example]:(https://static-00.iconduck.com/assets.00/chat-icon-512x512-xm7da9ok.png)
 ## vite & React
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
