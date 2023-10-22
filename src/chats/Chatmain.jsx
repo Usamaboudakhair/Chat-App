@@ -125,7 +125,7 @@ export default function Chatmain() {
                                      
                                     </div > 
                                     <div   onClick={()=>setshowmessage(true)}>
-                                        <div> <Users /></div>
+                                        <div> <Users  /></div>
                                     </div>
                                     
                                  </div>
