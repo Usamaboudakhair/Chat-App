@@ -1,6 +1,6 @@
 # Chat application with React js, Tailwindcss & firebase #
 
-[Button Shield]: https://img.shields.io/badge/Shield_Buttons-37a779?style=for-the-badge
+[Button Shield]: https://img.shields.io/badge/app-37a779?style=for-the-badge
 
 
 ## vite & React
