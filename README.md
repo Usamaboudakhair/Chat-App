@@ -1,4 +1,4 @@
-![image](https://github.com/Usamaboudakhair/chat-app/assets/109860129/bbb5e483-d305-4ed5-9577-0fae8c08d65f)# Chat application with React js, Tailwindcss & firebase #
+# Chat application with React js, Tailwindcss & firebase #
 
 
 
