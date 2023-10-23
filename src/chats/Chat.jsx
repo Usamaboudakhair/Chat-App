@@ -14,14 +14,6 @@ function Chat({showmessage,setshowmessage}) {
     const [textarea,settextarea]=useState('')
     const [image,setimage]=useState(null)
     const audioPlayer = useRef();
-    useEffect(()=>{
-        focusTextarea();
-        
-    });
-    function focusTextarea() {
-        input.current.focus();
-      }
-
     const hundlesend = async ()=>{
        
         if(image){
@@ -111,7 +103,7 @@ function Chat({showmessage,setshowmessage}) {
                     <div className="section flex  justify-between items-center h-full px-3 ">
                         <div className='flex items-center gap-2' >
                             <div  onClick={()=>setshowmessage(false)} title='return' className=' bg-opacity-25 bg-blue-950 rounded-md cursor-pointer flex items-center md:hidden visible  justify-center  w-10 h-8'>
-                                <i  className=" bi bi-caret-left-fill text-2xl m-0 h-10 w-10   text-white  "></i>
+                                <i  className="bi-caret-left-fill text-3xl  h-10 w-10 pb-0   text-white  "></i>
                             </div>
                             <div className=' flex items-center gap-1'>
                                     <img src={data.user?.photoURL} className='rounded-full  h-8 w-8 object-cover' alt="Profile Image" />
@@ -132,7 +124,7 @@ function Chat({showmessage,setshowmessage}) {
                 </div>
                 <div className="div   dark:bg-gray-800 bg-[#ddddf7] ">
                     <div  className=' flex  rounded-tl-md overflow-hidden' encType='multipart/form-data'>
-                            <textarea autoFocus ref={input} value={textarea} onChange={(e)=>settextarea(e.target.value)}  className='dark:bg-gray-600 dark:text-gray-50 flex px-2  w-[calc(100%-128px)]  justify-start focus:outline-none resize-none h-16 pt-2  '  name="" id="" placeholder='Type something . . .'></textarea>
+                            <textarea autoFocus  value={textarea} onChange={(e)=>settextarea(e.target.value)}  className='dark:bg-gray-600 dark:text-gray-50 flex px-2  w-[calc(100%-128px)]  justify-start focus:outline-none resize-none h-16 pt-2  '  name="" id="" placeholder='Type something . . .'></textarea>
                             <div className='w-[128px]  flex justify-evenly  items-center  dark:bg-gray-600 bg-white'>
                                 <button type='button' onClick={hundlesend} className=' py-0 px-0   focus:outline-none  border-none mb-1 rotate-6 ' ><i className ="bi bi-send-arrow-up-fill hover:text-green-600 dark:hover:text-green-300   text-xl  dark:text-gray-50"></i></button>
                                 <label htmlFor='image' className='bi bi-file-earmark-image  text-xl dark:text-gray-50 cursor-pointer hover:text-green-600 dark:hover:text-green-300 '></label>
