@@ -110,7 +110,7 @@ function Login() {
         </div>
     </div>
          {
-          showmodal  && <Mymodal visible={showmodal} setvisible={setshowmodal} type={"Success"} message={messagemodal} />
+          showmodal  && <Mymodal visible={showmodal} setvisible={setshowmodal} type={typemodal} message={messagemodal} />
          } 
     </>
     )

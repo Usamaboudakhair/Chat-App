@@ -27,7 +27,7 @@ function Message({message}) {
         <div  className='message py-2 '>
             <div ref={ref} className={'w-full px-1 text-start '+((message.senderId!=currentUser.uid)?"flex flex-row":"flex flex-row-reverse text-end ")}>
                 <img src={(message.senderId==currentUser.uid)?currentUser.photoURL:data.user?.photoURL} alt="" title='' className='w-10 h-10 min-w-[2.5rem]   rounded-full'  />
-                <div className='  space-y-1 px-2 pt-1 '>
+                <div className='  space-y-1 px-2 pt-1 ' >
                     <p className='text-sm text-gray-600 dark:text-gray-400'>{time}</p>
                     
                     <div  hidden={message.textarea!=""?"":"hidden"} className={''}>

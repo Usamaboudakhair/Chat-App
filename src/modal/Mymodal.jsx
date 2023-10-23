@@ -6,9 +6,10 @@ export default function Mymodal({visible,setvisible,message,type}) {
         if(e.target.id==="container") setvisible(false)
       }
       useEffect(() => {
-
+       
         if(type!="Info"){
             if(type=="Success"){
+                
                 settypestyle("bi bi-check-circle-fill text-green-500 animate-fade  text-7xl ")
             }
             else{
