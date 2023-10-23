@@ -83,11 +83,11 @@ export default function Chatmain() {
                                 <div className="nav  bg-[#2b4788] dark:bg-[#303e60]  p-0 h-16 w-full   ">
                                     <div className="section flex justify-between items-center h-full px-3 ">
                                         <div className=" relative profile flex justify-between items-center gap-1 lg:gap-3">
-                                            <div className='relative cursor-pointer lg:cursor-default'>
+                                            <div hidden={currentUser.photoURL?"":"hidden"}  className='relative cursor-pointer lg:cursor-default'>
                                                 <img src={currentUser.photoURL} className='rounded-full shadow shadow-slate-400 h-12 w-12 object-cover' alt="Profile Image" />
                                                 <i className='w-2 h-2  rounded-full absolute top-[2px] right-0 bg-green-400 animate-pulse'></i>
                                             </div>
-                                            <p className='font-bold truncate text-[#e8e9ff]   text-sm lg:text-base mx-2 md:mx-0 ' title={currentUser.displayName}>{currentUser.displayName?currentUser.displayName.split("#")[0]:""}</p>
+                                            <p className='font-bold truncate text-[#e8e9ff]   text-sm lg:text-base mx-2 md:mx-0 cursor-pointer ' onClick={()=>alert("your username is "+currentUser.displayName)}  title={currentUser.displayName}>{currentUser.displayName?currentUser.displayName.split("#")[0]:""}<span className=' text-xs truncate'>{currentUser.displayName?"#"+currentUser.displayName.split("#")[1]:""}</span></p>
                                             <div className='mx-2'>
                                             <i onClick={()=>signOut(auth)} title='Logout' className='bi bi-box-arrow-in-right text-[#e8e9ff] cursor-pointer text-lg text-center md:hidden block '></i>
                                             </div>
