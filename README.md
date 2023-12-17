@@ -5,17 +5,13 @@
 -[![Button Shield]](https://chat-app-r6ji.onrender.com/)
 ## Login page
 ![Alt text](/img/image.png "Optional title")
-## Login page
+## Register page : username must be short name with tag of 3 or 4 numbers (name#111) 
 ![Alt text](/img/image1.png "Optional title")
-## Login page
-![Alt text](/img/image2.png "Optional title")
-## Login page
-![Alt text](/img/image3.png "Optional title")
-## Login page
+## Chat page
 ![Alt text](/img/image4.png "Optional title")
-## Login page
+## Find a user to chat with by typing the full name with tag
 ![Alt text](/img/image5.png "Optional title")
-## Login page
+## Start a Conversation
 ![Alt text](/img/image6.png "Optional title")
 
 
