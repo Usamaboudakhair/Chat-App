@@ -11,6 +11,6 @@ Currently, two official plugins are available:
 
 -[![Button Shield]](https://chat-app-r6ji.onrender.com/)
 
-<img src="/img/image.png" alt="Alt text" title="Optional title">
+![Alt text](/img/image.png "Optional title")
 
 
